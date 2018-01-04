@@ -1,0 +1,27 @@
+{
+  "name": "dbase",
+  "version": "0.0.1",
+  "description": "Database Tools",
+  "main": "package/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colohr/dbase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colohr/dbase/issues"
+  },
+  "homepage": "https://github.com/colohr/dbase#readme",
+  "dependencies": {
+    "fxy": "^0.1.71",
+    "mongodb": "^3.0.1",
+    "nconf": "^0.10.0"
+  }
+}
